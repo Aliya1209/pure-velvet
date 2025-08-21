@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="container">
+    <h1 style="color:  rgb(18, 126, 228);">FORM</h1>
+    
+    <form action="form.php" method="post">
+      <label for="fname"> First Name:</label><br>
+      <input type="text" name="fname" placeholder="fname"> <br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" name="lname" placeholder="lname"> <br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" name="email" placeholder="Email"> <br>
+
+      <label for="phone">Phone Number:</label> <br>
+      <input type="tel" name="phone"  placeholder="Phone" required><br>
+      
+      <label for="service">Payment method</label> <br>
+      <select name="service" required>
+        <option value="none ">.</option>
+        <option value="cash on delivery">cash on delivery</option>
+        <option value="UPI">UPI</option>
+        <option value="Net banking">Net banking</option>
+    
+      </select>
+<BR> <BR>
+     
+      <input type="submit" value="submit">
+    </form>
+  </div>
+</body>
+</html>

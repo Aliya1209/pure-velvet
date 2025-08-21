@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+        body {
+            background-color:#fff4ee;
+            color: #42280c;
+            padding: 40px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background:#f8dfd0;
+            padding: 40px;
+            border-radius: 10px;
+        }
+        .product img {
+            max-width: 320px;
+            border-radius: 10px;
+        }
+        .details {
+            max-width: 50%;
+        }
+        .details h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .buttons button {
+            background: black;
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background: #444;
+        }
+        .info-section {
+            margin-top: 40px;
+            background:#f8dfd0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .info-section h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .info-section p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .see-also {
+            margin-top: 40px;
+        }
+        .see-also h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .related-products {
+            display: flex;
+            gap: 20px;
+        }
+        .related-product {
+            background:#f8dfd0;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+        }
+        .related-product img {
+            max-width: 100px;
+            border-radius: 10px;
+        }
+        .related-product h3 {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .related-product .price {
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <img src="images/anuanew-1.jpeg" alt="Shower Cream">
+            <div class="details">
+                <h1>Anua toner pads</h1>
+                <p>A toner pad designed to gently exfoliate dead skin cells, reducing blackheads, whiteheads, and breakouts. - A perfect daily toner pad for instant soothing and reducing enlarged pores. Suitable for all skin types, especially sensitive skin.</p><br>
+                <p class="price">$18</p>
+                <div class="buttons">
+                    <a href="client.html">
+                        <button>Add to Cart</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="info-section">
+            <h2>How to Use</h2>
+            <p>After cleansing, use the embossing side of the pad to cleanse the face along the skin texture, avoiding the lip and eye areas.
+                Wipe the face once again gently with the opposite side of the pad to prep the skin..</p>
+        </div>
+        <div class="see-also">
+            <h2>See Also</h2>
+            <div class="related-products">
+                <div class="related-product">
+                    <img src="images/anuanew-2.jpeg" alt="Shampoo">
+                    <h3>Centecella Toner</h3>
+                    <p class="price">$21</p>
+                </div>
+                <div class="related-product">
+                    <img src="images/anuanew-3.jpeg" alt="Conditioner">
+                    <h3>AHA + BHA peeling solution</h3>
+                    <p class="price">$20</p>
+                </div>
+                <div class="related-product">
+                    <img src="images/anuanew-4.jpeg" alt="Hair Mask">
+                    <h3>Vitamin C suspension</h3>
+                    <p class="price">$27</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
